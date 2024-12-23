@@ -1,0 +1,49 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest cache
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+venv.bak/
+#.env/  didnt add env file for a reason, easy to test
+
+# Django stuff:
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+
+# Docker
+docker-compose.override.yml
+
